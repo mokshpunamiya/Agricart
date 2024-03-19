@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="icons/chatcart.jpg" type="image/gif" />
+    <title>AgriCart</title>
+    <link rel="stylesheet" type="text/css" href="chatbot_style.css" />
+  </head>
+  <body>
+    <div id="chat-window">
+      <div class="main-title">KISSAN MITRA - CHATBOT</div>
+      <div id="chat-messages"></div>
+      <form id="chat-form">
+        <input
+          type="text"
+          id="chat-input"
+          autocomplete="off"
+          placeholder="Type your message here"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="chatbot_app.js"></script>
+  </body>
+</html>
